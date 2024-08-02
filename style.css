@@ -1,8 +1,15 @@
 body{
+    margin: 0px;;
     font-family: "Poppins", sans-serif;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
 }
 .orange-highlight{
     color: orange;
@@ -15,4 +22,36 @@ h1{
 }
 .half-width img {
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700px;
+    border-radius: 8px;
+}
+#contact{
+    position:relative;
+    left: 380px;
+}
+#resume{
+    position:relative;
+    left: 330px;
+}
+#writings{
+    position: relative;
+    top: 200px;
+}
+#first-part{
+    position: relative;
+    bottom: 60px;
+}
+.dream-area{
+   background-image: url("images/dream-bg.png");
 }
